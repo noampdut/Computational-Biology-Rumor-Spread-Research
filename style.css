@@ -1,0 +1,82 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f2f2f2;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  
+}
+
+table {
+  width: 1000px;
+  margin: 10px auto 0;
+  border-collapse: collapse;
+}
+
+
+td {
+  width: 8px;
+  height: 8px;
+  border: 1px solid rgb(158, 154, 154);
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #2eb7cc;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.5em;
+  font-size: 1em;
+  margin: 0.5em;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+
+h3 {
+  color: #34495e;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #34495e;
+  font-size: 1.7em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+label {
+  font-size: 1.2em;
+  margin-left: 0.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+canvas {
+  margin: 0.5em;
+}
+
